@@ -1,0 +1,15 @@
+Nome tabella: Auto
+
+id - PRIMARY_KEY - AUTO_INCREMENT - UNIQUE
+Tipologia - stringa - VARCHAR(20) NOTNULL
+Marca - stringa - VARCHAR(20) NOTNULL
+Modello - stringa - VARCHAR(20)
+Prezzo - intero - INT NOTNULL
+Chilometraggio - intero - INT
+Colore - stringa - VARCHAR(20)
+Anno - data - YEAR NOTNULL
+Alimentazione - stringa - VARCHAR(20) NOTNULL
+Immagine - stringa - TEXT DEFAULT("https://www.esempio.com/auto.jpg")
+Descrizione - stringa - TEXT NULL
+Disponibilità - TINYINT NOTNULL
+Targa - stringa - VARCHAR(7) NOTNULL UNIQUE
